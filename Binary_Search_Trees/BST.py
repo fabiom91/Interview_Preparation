@@ -125,9 +125,3 @@ class BST:
         while current.left is not None:
             current = current.left
         return current.value
-
-    def getMaxValue(self):
-        current = self
-        while current.right is not None:
-            current = current.right
-        return current.value
